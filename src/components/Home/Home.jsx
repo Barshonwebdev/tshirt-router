@@ -7,6 +7,7 @@ import toast from "react-hot-toast";
 
 
 const Home = () => {
+    
     const tshirts=useLoaderData();
     const [cart,setCart]=useState([]);
     const handleCart=(tshirt)=>{

@@ -1,0 +1,18 @@
+.container{
+    
+    margin-top: 50px;
+    background-color: aqua;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.boss{
+    display: flex;
+    justify-content: center;
+}
+
+.employee{
+    display:  flex;
+    justify-content: space-around;
+}

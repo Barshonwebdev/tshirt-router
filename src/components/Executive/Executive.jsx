@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { Powercontext } from '../Boss/Boss';
 
 const Executive = () => {
+    const getpower=useContext(Powercontext);
     return (
         <div>
-            <p>Executive</p>
+            <p>Executive {getpower}</p>
         </div>
     );
 };
